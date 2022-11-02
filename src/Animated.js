@@ -6,6 +6,8 @@ import {
 import * as reanimated1 from './reanimated1';
 import ReanimatedComponents from './reanimated2/component';
 
+global.__reanimatedWorkletInit = () => { };
+
 const Animated = {
   // components
   ...ReanimatedComponents,
